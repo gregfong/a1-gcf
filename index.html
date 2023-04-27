@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+<title>Glenn Chen Fong, AIA PLLC | Custom Residential Architect</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cycle.lite.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#content-photo').cycle({ 
+    fx: 'custom', 
+	cssBefore: { left: 550 }, 
+	animIn:  { left: 0 }, 
+	animOut: { left: -550 },
+    speed:  1000, 
+    timeout: 0, 
+    next:   '#next', 
+    prev:   '#prev' 
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<h1>Glenn Chen Fong, AIA PLLC</h1>
+<h2>Custom Residential Architect</h2>
+</div>
+
+<div id="content-photo">
+	<div class="photo"><img src="./img/port01.jpg" /></div>
+	<div class="photo"><img src="./img/bethesda.jpg" /></div>
+	<div class="photo"><img src="./img/fairfax.jpg" /></div>
+	<div class="photo"><img src="./img/port02.jpg" /></div>
+	<div class="photo"><img src="./img/port03.jpg" /></div>
+	<div class="photo"><img src="./img/port04.jpg" /></div>
+	<div class="photo"><img src="./img/port05.jpg" /></div>
+	<div class="photo"><img src="./img/port06.jpg" /></div>
+	<div class="photo"><img src="./img/port07.jpg" /></div>
+</div>
+
+<div id="content-text">
+<p>Celebrating 35 years of passion in architecture and excellence in design.</p>
+<p><em>"I give every house I create its own individual style and unique signature. The design of a home should always be a fun and enjoyable experience as much for the client as the architect, the result of which will be a timeless home that can be enjoyed now and for generations to come."</em></p>
+<p class="quote">- Glenn Chen Fong</p>
+<div id="ssnav"><a href="#" id="next">Next Image</a><br/><a href="#" id="prev">Previous Image</a></div>
+</div>
+
+<div id="footer">
+<span>Office: 703-538-5080 || </span><a href="mailto:info@architectureone.com">info@architectureone.com</a>
+</div>
+
+</div>
+
+<div id="copyright">Design by Glenn Fong; Architect of record varies.<br>Photos 1, 3 & 4 by Judy Davis/hdphoto.com. Photos 5, 6 & 7 by Erin Brooke Bogan.</div>
+
+</body>
+</html>
